@@ -1,0 +1,25 @@
+"*":
+  "atom-beautify":
+    css:
+      beautify_on_save: true
+    html:
+      beautify_on_save: true
+    js:
+      beautify_on_save: true
+  "atom-ternjs":
+    useSnippets: true
+  "color-picker":
+    abbreviateValues: true
+    automaticReplace: true
+  core:
+    telemetryConsent: "no"
+    uriHandlerRegistration: "always"
+  editor:
+    fontSize: 15
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "ae468fa3-58f0-4beb-b3d4-902d13a9bb0d"
+  "linter-ui-default":
+    showPanel: true
+  welcome:
+    showOnStartup: false

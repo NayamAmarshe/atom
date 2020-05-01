@@ -1,0 +1,70 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-package-sync/versions/0.4.0/tarball",
+  "_id": "atom-package-sync@0.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-88B+lkIUJgLEtPxnCme0a5QLf4lxYIMRSwKkUjmXnlSGEJ8rOsPuUYuRvIiFln6GENhjw14u3WSago9F2qVosQ==",
+  "_location": "/atom-package-sync",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-package-sync/versions/0.4.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-package-sync/versions/0.4.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-package-sync/versions/0.4.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-package-sync/versions/0.4.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-package-sync/versions/0.4.0/tarball",
+  "_shasum": "b9b17f4083af3732fe782320cee90ad5adb24301",
+  "_spec": "https://www.atom.io/api/packages/atom-package-sync/versions/0.4.0/tarball",
+  "_where": "C:\\Users\\nayam\\AppData\\Local\\Temp\\apm-install-dir-120315-11360-qwmmoo.751a",
+  "bugs": {
+    "url": "https://github.com/macor161/atom-package-sync/issues"
+  },
+  "bundleDependencies": false,
+  "commits": {
+    "url": "https://github.com/macor161/atom-package-sync/commit"
+  },
+  "dependencies": {
+    "async": "^2.1.4",
+    "crypto": "0.0.3",
+    "emissary": "~1.3.3",
+    "fetch-retry": "^1.0.3",
+    "memory-cache": "^0.1.6",
+    "q": "~1.4.1",
+    "semver": "~5.2.0",
+    "store": "^1.3.20",
+    "underscore-plus": "^1.6.6"
+  },
+  "deprecated": false,
+  "description": "Synchronize your atom packages easily",
+  "devDependencies": {
+    "fetch-mock": "^5.9.4"
+  },
+  "engines": {
+    "atom": ">=1.9.0 <2.0.0"
+  },
+  "homepage": "https://github.com/macor161/atom-package-sync#readme",
+  "keywords": [
+    "packages",
+    "settings",
+    "productivity",
+    "manager",
+    "sync",
+    "backup",
+    "restore"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-package-sync",
+  "name": "atom-package-sync",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macor161/atom-package-sync.git"
+  },
+  "scripts": {
+    "test": "atom --test spec/atom-package-sync.spec.js"
+  },
+  "version": "0.4.0"
+}
