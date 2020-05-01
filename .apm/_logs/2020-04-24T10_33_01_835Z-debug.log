@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Users\\nayam\\AppData\\Local\\atom\\app-1.45.0\\resources\\app\\apm\\bin\\node.exe',
+1 verbose cli   'C:\\Users\\nayam\\AppData\\Local\\atom\\app-1.45.0\\resources\\app\\apm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   '--globalconfig',
+1 verbose cli   'C:\\Users\\nayam\\.atom\\.apm\\.apmrc',
+1 verbose cli   '--userconfig',
+1 verbose cli   'C:\\Users\\nayam\\.atom\\.apmrc',
+1 verbose cli   'install',
+1 verbose cli   'https://www.atom.io/api/packages/an-color-picker/versions/1.0.2/tarball',
+1 verbose cli   '--target=4.2.7',
+1 verbose cli   '--disturl=https://atom.io/download/electron',
+1 verbose cli   '--arch=x64',
+1 verbose cli   '--global-style' ]
+2 info using npm@6.2.0
+3 info using node@v10.2.1
+4 verbose npm-session f0ef04d776685311
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 400 https://www.atom.io/api/packages/an-color-picker/versions/1.0.2/tarball 10425ms
+8 silly fetchPackageMetaData error for https://www.atom.io/api/packages/an-color-picker/versions/1.0.2/tarball 400 Bad Request: https://www.atom.io/api/packages/an-color-picker/versions/1.0.2/tarball
+9 timing stage:rollbackFailedOptional Completed in 3ms
+10 timing stage:runTopLevelLifecycles Completed in 12163ms
+11 verbose stack Error: 400 Bad Request: https://www.atom.io/api/packages/an-color-picker/versions/1.0.2/tarball
+11 verbose stack     at fetch.then.res (C:\Users\nayam\AppData\Local\atom\app-1.45.0\resources\app\apm\node_modules\npm\node_modules\pacote\lib\fetchers\registry\fetch.js:42:19)
+11 verbose stack     at tryCatcher (C:\Users\nayam\AppData\Local\atom\app-1.45.0\resources\app\apm\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+11 verbose stack     at Promise._settlePromiseFromHandler (C:\Users\nayam\AppData\Local\atom\app-1.45.0\resources\app\apm\node_modules\npm\node_modules\bluebird\js\release\promise.js:512:31)
+11 verbose stack     at Promise._settlePromise (C:\Users\nayam\AppData\Local\atom\app-1.45.0\resources\app\apm\node_modules\npm\node_modules\bluebird\js\release\promise.js:569:18)
+11 verbose stack     at Promise._settlePromise0 (C:\Users\nayam\AppData\Local\atom\app-1.45.0\resources\app\apm\node_modules\npm\node_modules\bluebird\js\release\promise.js:614:10)
+11 verbose stack     at Promise._settlePromises (C:\Users\nayam\AppData\Local\atom\app-1.45.0\resources\app\apm\node_modules\npm\node_modules\bluebird\js\release\promise.js:693:18)
+11 verbose stack     at Async._drainQueue (C:\Users\nayam\AppData\Local\atom\app-1.45.0\resources\app\apm\node_modules\npm\node_modules\bluebird\js\release\async.js:133:16)
+11 verbose stack     at Async._drainQueues (C:\Users\nayam\AppData\Local\atom\app-1.45.0\resources\app\apm\node_modules\npm\node_modules\bluebird\js\release\async.js:143:10)
+11 verbose stack     at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\nayam\AppData\Local\atom\app-1.45.0\resources\app\apm\node_modules\npm\node_modules\bluebird\js\release\async.js:17:14)
+11 verbose stack     at runCallback (timers.js:696:18)
+11 verbose stack     at tryOnImmediate (timers.js:667:5)
+11 verbose stack     at processImmediate (timers.js:649:5)
+12 verbose cwd C:\Users\nayam\AppData\Local\Temp\apm-install-dir-120324-9536-5hsz9.4u35o3
+13 verbose Windows_NT 10.0.18363
+14 verbose argv "C:\\Users\\nayam\\AppData\\Local\\atom\\app-1.45.0\\resources\\app\\apm\\bin\\node.exe" "C:\\Users\\nayam\\AppData\\Local\\atom\\app-1.45.0\\resources\\app\\apm\\node_modules\\npm\\bin\\npm-cli.js" "--globalconfig" "C:\\Users\\nayam\\.atom\\.apm\\.apmrc" "--userconfig" "C:\\Users\\nayam\\.atom\\.apmrc" "install" "https://www.atom.io/api/packages/an-color-picker/versions/1.0.2/tarball" "--target=4.2.7" "--disturl=https://atom.io/download/electron" "--arch=x64" "--global-style"
+15 verbose node v10.2.1
+16 verbose npm  v6.2.0
+17 error code E400
+18 error 400 Bad Request: https://www.atom.io/api/packages/an-color-picker/versions/1.0.2/tarball
+19 verbose exit [ 1, true ]
